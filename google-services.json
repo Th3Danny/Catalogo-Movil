@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "260284363851",
+    "project_id": "martinproweb-691c6",
+    "storage_bucket": "martinproweb-691c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260284363851:android:b6bd7ee82cc0b258f1c9ce",
+        "android_client_info": {
+          "package_name": "com.example.catalogoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOm-brAWQDYkMAlnDiL5kEWGf0u6b294s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
