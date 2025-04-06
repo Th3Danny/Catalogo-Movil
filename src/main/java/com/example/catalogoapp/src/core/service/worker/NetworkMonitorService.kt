@@ -52,7 +52,7 @@ class NetworkMonitorService : Service() {
 
                     // Actualizar notificación
                     val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-                    notificationManager.notify(NOTIFICATION_ID, getNotification("Conectado: Sincronizando datos..."))
+                    notificationManager.notify(NOTIFICATION_ID, getNotification(" Sincronizando datos..."))
                 }
             }
 
@@ -61,7 +61,7 @@ class NetworkMonitorService : Service() {
 
                 // Actualizar notificación
                 val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-                notificationManager.notify(NOTIFICATION_ID, getNotification("Desconectado: Esperando conexión..."))
+                notificationManager.notify(NOTIFICATION_ID, getNotification(" Esperando conexión..."))
             }
         }
 

@@ -12,7 +12,7 @@ object FirebaseHelper {
     // Manejo de errores mejorado para el envío de tokens FCM
     fun sendTokenToServer(context: Context, token: String) {
         try {
-            Log.d(TAG, "📡 Intentando enviar token FCM al backend: $token")
+            Log.d(TAG, " Intentando enviar token FCM al backend: $token")
 
             val sharedPreferences = context.getSharedPreferences("MyAppPrefs", Context.MODE_PRIVATE)
             val authToken = sharedPreferences.getString("authToken", "")
@@ -30,7 +30,7 @@ object FirebaseHelper {
             val client = OkHttpClient()
 
             // Asumiendo que la URL es correcta - verifica esto con tu backend
-            val url = "http://18.205.80.182:8081/api/token"
+            val url = "http:///api/token"
 
             // Crear el cuerpo de la solicitud con MediaType para OkHttp 3.x
             val JSON = MediaType.parse("application/json; charset=utf-8")
